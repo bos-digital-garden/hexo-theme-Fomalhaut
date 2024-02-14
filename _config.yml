@@ -18,7 +18,7 @@ abbrlink:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.fomal.cc/
+url: https://bos-digital-garden.github.io/hexo-theme-Fomalhaut
 permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
@@ -124,8 +124,8 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repository:  # 这里写上你的Github地址
-    branch: main
+    repository: https://github.com/bos-digital-garden/hexo-theme-Fomalhaut
+    branch: gh-pages
   # - type: baidu_url_submitter
   # - type: git
   #   #repo改为repo: git@域名:/var/repo/hexo.git
